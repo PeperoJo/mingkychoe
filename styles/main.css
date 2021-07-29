@@ -14,7 +14,7 @@ body {
 
 .info {
   width:100%;
-  max-width: 500px;
+  max-width: 550px;
   padding: 15px;
 
 }
@@ -25,7 +25,9 @@ body {
   font-weight: 600;
   font-style: italic;
   color: #4C4C4A;
-  text-align: center;
+  /* text-align: center; */
+  padding-left: 30px;
+
 }
 
 .b1 {
@@ -33,5 +35,42 @@ body {
   font-size: 15px;
   font-weight: 400;
   color: #4C4C4A;
-  text-align: center;
+  /* text-align: center; */
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.korean {
+  font-family: 'Gowun Batang', serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.dictionary {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.definition {
+  padding-top: 15px;
+}
+
+a:link {
+  text-decoration-style: dotted;
+  text-underline-offset: 5px;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: line-through;
 }
