@@ -1,0 +1,15 @@
+body {
+  margin: 0 !important;
+}
+
+.splash {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F0EFEA;
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  color: #4C4C4A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
