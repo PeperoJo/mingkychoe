@@ -57,6 +57,10 @@ body {
   padding-top: 15px;
 }
 
+a {
+  color: inherit;
+}
+
 a:link {
   text-decoration-style: dotted;
   text-underline-offset: 5px;
