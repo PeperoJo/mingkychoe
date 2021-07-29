@@ -5,6 +5,7 @@ body {
 .splash {
   width: 100vw;
   height: 100vh;
+  min-height: -webkit-fill-available;
   background-color: #F0EFEA;
   display: flex;
   justify-content: center;
@@ -32,5 +33,5 @@ body {
   font-size: 15px;
   font-weight: 400;
   color: #4C4C4A;
-  /* text-align: center; */
+  text-align: center;
 }
